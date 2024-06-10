@@ -1,4 +1,4 @@
 class Address < ApplicationRecord
-  has_many :order
+  has_many :orders
   belong_to :shop
 end
